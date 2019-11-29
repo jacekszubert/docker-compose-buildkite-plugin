@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 compose_cleanup() {
   # Send them a friendly kill

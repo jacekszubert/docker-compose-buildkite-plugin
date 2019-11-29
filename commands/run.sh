@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 set -ueo pipefail
 
 # Run takes a service name, pulls down any pre-built image for that name
