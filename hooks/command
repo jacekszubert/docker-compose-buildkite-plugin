@@ -1,5 +1,6 @@
 #!/bin/bash
 set -ueo pipefail
+set -x
 
 DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
